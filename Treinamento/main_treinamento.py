@@ -1,0 +1,11 @@
+from pessoa import Pessoa
+p1 = Pessoa('Gabriella', '25')
+p1.parar_comer()
+p1.comer('açai')
+p1.falar('Programação')
+p1.comer('açai')
+p1.parar_comer()
+p1.parar_falar()
+p1.falar('Programação')
+p1.parar_falar()
+p1.parar_falar()
