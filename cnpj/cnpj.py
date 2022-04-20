@@ -14,11 +14,12 @@ def calcula_digito(cnpj_formatado):
         if reverso < 2:
             reverso = 9
 
-        if index > 10:
+        if index > 11:
             reverso = 6
             digito = 11 - (total % 11)
             if digito > 9:
                 digito = 0
+            print(digito)
             total = 0
             cnpj_formatado += str(digito)
 

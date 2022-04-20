@@ -24,3 +24,4 @@ class ClienteVip(Cliente):
         self.sobrenome = sobrenome
     def falar(self):
         print(f'{self.nome} {self.sobrenome} está falando')
+
